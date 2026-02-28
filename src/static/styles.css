@@ -74,6 +74,37 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* participants list styling */
+.participants-list {
+  margin-top: 10px;
+  /* remove default bullets and left padding so items align neatly */
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.participants-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.remove-participant {
+  cursor: pointer;
+  color: #c62828;
+  font-weight: bold;
+  margin-left: 8px;
+  padding: 0 4px;
+}
+
+.remove-participant:hover {
+  color: #b71c1c;
+}
+
+.participants-list li {
+  margin-bottom: 4px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
